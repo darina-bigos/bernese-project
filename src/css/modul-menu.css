@@ -49,6 +49,7 @@
 .icon-close-menu {
   background-color: transparent;
   fill: #341d08;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-close-menu:focus,
@@ -69,7 +70,7 @@
 }
 .mm-nav-item-link {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 26px;
   letter-spacing: 0.1;
   color: #341d08;
 }
@@ -84,6 +85,9 @@
   align-items: center;
 }
 .mm-contact-link {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.1;
   color: #341d08;
 }
 .mm-contact-link:focus,
@@ -109,6 +113,12 @@
 }
 .mm-sm-icon {
   fill: #341d08;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mm-sm-icon:hover,
+.mm-sm-icon:focus {
+  fill: #daa520;
 }
 
 @media screen and (min-width: 768px) {
