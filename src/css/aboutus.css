@@ -1,0 +1,60 @@
+.section-about {
+  margin-top: 60px;
+}
+.title-about {
+  text-align: center;
+  margin-bottom: 26px;
+  font-weight: bolder;
+  font-size: 32px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #341d08;
+}
+
+.title-about::after {
+  content: '';
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #c6a46a; /* kolor złoty / z logo */
+  margin: 12px auto 0;
+}
+
+.box-text-about {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 26px;
+}
+
+.text-about {
+  text-align: justify;
+  text-indent: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.text-about:first-of-type::first-letter {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #341d08;
+  line-height: 0.5;
+  padding-right: 1px;
+}
+
+.map-box-mob {
+  width: 100%;
+  overflow: hidden;
+}
+
+.map-box-mob iframe {
+  display: block;
+  width: 100%;
+  height: 280px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
